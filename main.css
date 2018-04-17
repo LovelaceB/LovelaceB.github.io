@@ -60,6 +60,7 @@ nav li {
 
 nav ul {
   display: inline;
+  justify-content: center;
 }
 
 .contact-btn {
