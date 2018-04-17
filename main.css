@@ -59,7 +59,7 @@ nav li {
 }
 
 nav ul {
-  display: inline;
+  display: flex;
   justify-content: center;
 }
 
