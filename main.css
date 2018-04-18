@@ -63,21 +63,23 @@ nav ul {
   justify-content: center;
 }
 
-.contact-btn {
-  float: right;
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
 }
 
-.contact-btn a {
-  cursor: pointer;
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
 }
 
-.contact-btn a:active {
-top: 2px;
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
 }
 
 nav a {
@@ -93,6 +95,21 @@ nav a {
 	font-size: 1.25em;
 	text-decoration: none;
 }
-#footer{
-  font-size: 0.75rem;
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
